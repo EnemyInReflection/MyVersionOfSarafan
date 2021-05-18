@@ -15,8 +15,8 @@ public class MessageController {
 
     private List<Map<String,String>> messages=new ArrayList<Map<String, String>>(){{
        add(new HashMap<String, String>() {{put("id", "1"); put("text", "First message");}});
-       add(new HashMap<String, String>() {{put("id", "2"); put("text", "First message");}});
-       add(new HashMap<String, String>() {{put("id", "3"); put("text", "First message");}});
+       add(new HashMap<String, String>() {{put("id", "2"); put("text", "Second message");}});
+       add(new HashMap<String, String>() {{put("id", "3"); put("text", "Third message");}});
     }};
     @GetMapping
     public List<Map<String, String>> list(){
